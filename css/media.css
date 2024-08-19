@@ -1,0 +1,288 @@
+@media (max-width: 1310px) {
+	.link--tel {
+		margin-right: 20px;
+	}
+	.header__nav-item {
+		margin-right: 25px;
+	}
+	.header__logo {
+		margin-right: 50px;
+	}
+}
+
+@media (max-width: 1230px) {
+	.blog__img img {
+		width: 650px;
+	}
+	.blog__text {
+		width: 650px;
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.blog__info-title {
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 1145px) {
+	.link--tel {
+		margin-left: 200px;
+	}
+	.trip__title {
+		font-size: 34px;
+	}
+	.trip__text {
+		font-size: 16px;
+	}
+	.blog__img img,
+	.blog__info-title,
+	.blog__text {
+		width: 550px;
+	}
+	.help__title {
+		font-size: 34px;
+	}
+	.help__form-name,
+	.help__form-tel,
+	.help__form-mail,
+	.help__subtitle,
+	.help__text {
+		font-size: 14px;
+	}
+	.contact__info-adress span,
+	.contact__info-phone span,
+	.contact__info-mail span {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 1045px) {
+	.link--img {
+		display: none;
+	}
+	.link--tel {
+		margin-left: 300px;
+	}
+	.trip__title {
+		font-size: 26px;
+		margin-bottom: 25px;
+	}
+	.amount__info-title,
+	.amount__info-height,
+	.amount__info-level,
+	.amount__info-price {
+		font-size: 18px;
+	}
+	.blog__img img,
+	.blog__info-title,
+	.blog__text {
+		width: 475px;
+	}
+	.blog__nav-title {
+		font-size: 16px;
+	}
+	.blog__nav-date {
+		margin-bottom: 10px;
+	}
+	.help__img {
+		display: none;
+	}
+	.help__content {
+		margin: 0 auto;
+	}
+	.help__text {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.help__title {
+		padding-top: 40px;
+	}
+	.help__subtitle,
+	.help__title {
+		margin-bottom: 20px;
+	}
+	.help__text {
+		display: none;
+	}
+	.contact__info-title {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	.contact__img {
+		width: 400px;
+	}
+}
+
+@media (max-width: 1015px) {
+	.burger {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		z-index: 150;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background: #7e8386;
+	}
+	.burger span {
+		display: block;
+		width: 30px;
+		height: 4px;
+		background: #061b28;
+		border-radius: 4px;
+		margin: 4px 0;
+	}
+	.burger::before,
+	.burger::after {
+		content: "";
+		display: block;
+		width: 30px;
+		height: 4px;
+		background: #061b28;
+		border-radius: 4px;
+	}
+	.header {
+		padding-top: 70px;
+	}
+	.header__top {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background: #45545e;
+		z-index: 100;
+		min-width: 320px;
+		transform: translateX(100%);
+		transition: all 0.35s ease-in-out;
+	}
+	.header__top--open {
+		transform: translateX(0%);
+	}
+	.header__top-inner {
+		flex-direction: column;
+		height: 100%;
+		justify-content: space-between;
+		align-items: center;
+		padding: 100px 0;
+	}
+	.header__nav {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.header__nav-list {
+		flex-direction: column;
+	}
+	.header__logo {
+		margin-right: 0;
+	}
+	.header__nav-item {
+		margin: 20px 0 10px 0;
+	}
+	.link--tel {
+		margin: 175px 0 0 0;
+	}
+	.trip__img {
+		display: none;
+	}
+	.container__second {
+		max-width: 1045px;
+	}
+	.trip__content {
+		margin: 0 auto;
+	}
+	.trip__title {
+		font-size: 48px;
+		text-align: center;
+	}
+	.trip__text {
+		margin: 0 auto;
+	}
+	.trip__paragraph {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.main__trip {
+		padding: 80px 0 80px;
+	}
+	.main__popular {
+		padding-bottom: 80px;
+	}
+	.main__blog {
+		padding: 80px 0 80px;
+	}
+	.main__help {
+		margin-bottom: 80px;
+	}
+	.main__contact {
+		padding-bottom: 80px;
+	}
+	.blog__img img,
+	.blog__info-title,
+	.blog__text {
+		width: 400px;
+	}
+}
+
+@media (max-width: 975px) {
+	.contact__inner {
+		flex-direction: column-reverse;
+	}
+	.contact__content {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.contact__img iframe {
+		width: 455px;
+		height: 455px;
+	}
+	.contact__socials {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 935px) {
+	.blog__img img,
+	.blog__info-title,
+	.blog__text {
+		width: 350px;
+	}
+}
+
+@media (max-width: 880px) {
+	.blog__defeniton {
+		display: none;
+	}
+	.blog__nav {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 670px) {
+	.footer__protect, .footer__copy {
+		display: none;
+	}
+	.footer__logo {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 620px) {
+	.contact__img {
+		display: none;
+	}
+}
+
+@media (max-width: 550px) {
+	.help__btn {
+		padding: 15px 100px;
+		margin-left: 85px;
+	}
+	.blog__btn {
+		padding: 15px 100px;
+		margin-left: 20px;
+	}
+}
